@@ -1,0 +1,2 @@
+#!/bin/bash
+echo " 1%{F#F9C823} BGN %{F#}= $(units BGN USD -t -d 4) %{F#FC506E}USD, %{F#}$(units BGN GBP -t -d 4) %{F#FC506E}GBP"
