@@ -1,2 +1,7 @@
 #!/bin/bash
-for file in *.flac; do ffmpeg -i $file -q:a 0 ${file:r}.mp3; done
+for a in ./*.flac; do
+  < /dev/null ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/mp3}";
+  rm a;
+done
+
+
