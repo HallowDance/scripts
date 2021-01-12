@@ -1,2 +1,4 @@
- mogrify -resize 1920x1080! *.jpg
+!#/bin/bash
 
+mogrify -resize 1920x1080! *.jpg
+mv *.jpg ../*.jpg
