@@ -1,1 +1,1 @@
-feh -l | awk '{if ($4 <1080) {system("mv "$8" ./wrongsize")};}'
+feh -l | awk '{if ($4 <1080) {system("mv "$8" ./wrongsize/")};}'

@@ -1,0 +1,3 @@
+#!/bin/bash
+grep -i exec ~/.config/i3/config| grep -i Mod4 | awk '{$1=$3=""; print $0}'
+

@@ -7,9 +7,9 @@ suffix(){
     *)       echo "th";;
   esac
 }
-color1=F9C823
-color2=FB8C49
-color3=FC506E
+color1=74C988
+color2=74C988
+color3=74C988
 
 
 echo -n    %{F#$color1}$(date "+ %I:%M") %{F#}$(date "+%p") %{F#$color2}$(date "+ %A")%{F#}, the $(date "+%-d$(suffix) of") \
