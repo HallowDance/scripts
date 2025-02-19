@@ -1,0 +1,5 @@
+#!/bin/bash
+file=$(fd --exclude={'*kur*'} | sk -e)
+nohup xdg-open "$file" &>/dev/null &
+sleep 0.01
+exit
